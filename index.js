@@ -6,14 +6,14 @@ const axios = require('axios').default
 
 // - Connection configuration
 var con  = mysql.createPool({
-  connectionLimit : 5,
-  host: "localhost",
-  port: "3306",
-  user: "root",
-  password: "password",
-  database: "chatbot",
-  multipleStatements: true
-});
+    connectionLimit : 5,
+    host: "lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    port: "3306",
+    user: "hqs86j3zns5jsj8i",
+    password: "qg7ege7z3y7bkbo2",
+    database: "r9ecvaui98qv1t90",
+    multipleStatements: true
+  });
 
 con.getConnection((err,connection)=> {
     if(err)
